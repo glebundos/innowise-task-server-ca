@@ -5,6 +5,12 @@ VisualStudioVersion = 17.3.32901.215
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "innowise-task-server.API", "innowise-task-server.API\innowise-task-server.API.csproj", "{AF2A3274-7D3E-447F-88A6-A462BB4DB1B0}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "innowise-task-server.Application", "innowise-task-server.Application\innowise-task-server.Application.csproj", "{122BE931-49C0-43C0-8A02-A4840C61F7F9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "innowise-task-server.Core", "innowise-task-server.Core\innowise-task-server.Core.csproj", "{617C175E-2DF1-4585-93B4-127F145E10ED}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "innowise-task-server.Infrastructure", "innowise-task-server.Infrastructure\innowise-task-server.Infrastructure.csproj", "{2BC211DC-15CB-4FC8-9C89-DAAE86FBA47B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +21,18 @@ Global
 		{AF2A3274-7D3E-447F-88A6-A462BB4DB1B0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{AF2A3274-7D3E-447F-88A6-A462BB4DB1B0}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{AF2A3274-7D3E-447F-88A6-A462BB4DB1B0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{122BE931-49C0-43C0-8A02-A4840C61F7F9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{122BE931-49C0-43C0-8A02-A4840C61F7F9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{122BE931-49C0-43C0-8A02-A4840C61F7F9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{122BE931-49C0-43C0-8A02-A4840C61F7F9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{617C175E-2DF1-4585-93B4-127F145E10ED}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{617C175E-2DF1-4585-93B4-127F145E10ED}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{617C175E-2DF1-4585-93B4-127F145E10ED}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{617C175E-2DF1-4585-93B4-127F145E10ED}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2BC211DC-15CB-4FC8-9C89-DAAE86FBA47B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2BC211DC-15CB-4FC8-9C89-DAAE86FBA47B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2BC211DC-15CB-4FC8-9C89-DAAE86FBA47B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2BC211DC-15CB-4FC8-9C89-DAAE86FBA47B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
